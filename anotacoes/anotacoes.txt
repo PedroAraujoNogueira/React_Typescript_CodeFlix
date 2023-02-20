@@ -1,0 +1,29 @@
+1. Install yarn.
+
+2. Instalar o redux com typescript:
+O template abaixo vai criar uma aplicação react e vai setar uma estrutura básica 
+do Redux e também vai nos dar toda a tipagem em typescript.
+-> npx create-react-app my-app --template redux-typescript
+OBS: Troque "my-app" pelo nome da sua aplicação.
+OBS2: Redux é um gerenciador de estado que vai nos ajudar a gerenciar o estado 
+dentro da nossa aplicação.
+
+3. Instalação do MaterialUI:
+yarn add @mui/material @emotion/react @emotion/styled
+
+4. Instalação da fonte que é utilizada dentro do MaterialUI. Para instalar a fonte 
+Roboto em seu projeto usando o CDN do Google Web Fonts, adicione o seguinte trecho 
+de código dentro da tag do seu projeto <head />:
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+/>
+
+5. Para instalar a fonte Material Icons em seu projeto usando o CDN do Google Web 
+Fonts, adicione o seguinte trecho de código dentro da tag do seu projeto <head />:
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
+
+6. yarn add @mui/icons-material
